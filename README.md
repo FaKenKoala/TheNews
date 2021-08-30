@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # the_news
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# TheNews
+TheNews with data provided by NewYorkTimes
+>>>>>>> b5c68f348a7c9fd78ec03dc1ae016e9dcc3f9c7c
