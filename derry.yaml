@@ -1,0 +1,14 @@
+# build compiled time codes
+build: flutter pub run build_runner build
+buildW: flutter pub run build_runner watch
+
+buildD: flutter pub run build_runner build --delete-conflicting-outputs
+
+# change icon by flutter_launcher_icons
+icon: flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons.yaml
+
+# change app_name by flutter_app_name
+app_name: flutter pub run flutter_app_name
+
+# build android apk_bundle
+apk_bundle: flutter build appbundle --release --no-tree-shake-icons --verbose
